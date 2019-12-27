@@ -68,6 +68,8 @@ contract LoanTokenStorage is LoanTokenization {
 
     // slot addition (non-sequential): lowUtilBaseRate = 8000000000000000000; // 8.0%
     // slot addition (non-sequential): lowUtilRateMultiplier = 4750000000000000000; // 4.75%
+    // slot addition (non-sequential): FixedInterestBaseRate = ; //
+    // slot addition (non-sequential): FixedInterestRateMultiplier = 6875000000000000000; // 6.875%
 
     // "fee percentage retained by the oracle" = SafeMath.sub(10**20, spreadMultiplier);
     uint256 public spreadMultiplier;
